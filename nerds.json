@@ -1,5 +1,11 @@
 {
   "app": "pdfcraft",
   "upstream": "storytold/pdfcraft",
-  "name": "NERDS PDF"
+  "name": "NERDS PDF",
+  "upstream_name": "PdfCraft",
+  "brand": {
+    "docs/brand/artcraft-logo-white.svg": "nerds-logo-for-dark-ui.svg",
+    "docs/brand/artcraft-logo.svg": "nerds-logo-for-light-ui.svg",
+    "docs/brand/artcraft-mark.svg": "nerds-mark.svg"
+  }
 }
