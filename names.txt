@@ -1,0 +1,138 @@
+NERDS names: 121 changes, 15 kept, 0 warnings
+
+rust  apps/pdfcraft-cli/build.rs:16  'PdfCraft' -> 'NERDS PDF'
+rust  apps/pdfcraft-cli/build.rs:17  'PdfCraft command-line tool' -> 'NERDS PDF command-line tool'
+rust  apps/pdfcraft/build.rs:25  'PdfCraft' -> 'NERDS PDF'
+rust  apps/pdfcraft/build.rs:26  'PdfCraft PDF workbench' -> 'NERDS PDF PDF workbench'
+rust  apps/pdfcraft/src/decorations.rs:46  'the Wayland compositor draws no window frames; PdfCraft draws its own title bar' -> 'the Wayland compositor draws no window frames; NERDS PDF draws its own title bar'
+rust  apps/pdfcraft/src/main.rs:60  '\\\nUsage: pdfcraft [options] [files…]\n\nOpens the files in the PdfCraft desktop app.\n\nOption' -> '\\\nUsage: pdfcraft [options] [files…]\n\nOpens the files in the NERDS PDF desktop app.\n\nOptio'
+kept  apps/pdfcraft/src/main.rs:91  let legacy = eframe::storage_dir("PdfCraft");
+kept  apps/pdfcraft/src/main.rs:115  let mut moves = vec![(eframe::storage_dir("PrintCraft"), eframe::storage_dir("PdfCraft"))];
+kept  apps/pdfcraft/src/main.rs:119  moves.push((local.as_ref().map(|d| d.join("PrintCraft")), local.map(|d| d.join("PdfCraft"))));
+kept  apps/pdfcraft/src/main.rs:251  (logger, pdfcraft_ui_egui::portable::data_dir().map(std::path::Path::to_path_buf).or_else(|| eframe::storage_dir("PdfCraft")))
+rust  apps/pdfcraft/src/main.rs:254  'PdfCraft {}, log file {}' -> 'NERDS PDF {}, log file {}'
+kept  apps/pdfcraft/src/main.rs:282  "PdfCraft",
+kept  apps/pdfcraft/src/main.rs:300  "PdfCraft",
+rust  apps/pdfcraft/src/main.rs:343  'PdfCraft' -> 'NERDS PDF'
+rust  apps/pdfcraft/src/main.rs:497  'PdfCraft is drawing without a graphics processor, so it may be slow. Updating the graphics' -> 'NERDS PDF is drawing without a graphics processor, so it may be slow. Updating the graphic'
+kept  apps/pdfcraft/src/single_instance.rs:162  std::env::var_os("LOCALAPPDATA").filter(|v| !v.is_empty()).map(|d| std::path::PathBuf::from(d).join("PdfCraft").join(name))
+rust  apps/pdfcraft/src/single_instance.rs:255  "couldn't hand the files to the running PdfCraft ({e}); opening a new window" -> "couldn't hand the files to the running NERDS PDF ({e}); opening a new window"
+rust  apps/pdfcraft/src/single_instance.rs:306  "the running PdfCraft didn't confirm" -> "the running NERDS PDF didn't confirm"
+rust  crates/annot/src/modify.rs:20  'PdfCraft can\'t redraw this comment: the standard fonts can\'t draw \\"{}\\" (U+{:04X}) in {wh' -> 'NERDS PDF can\'t redraw this comment: the standard fonts can\'t draw \\"{}\\" (U+{:04X}) in {w'
+kept  crates/automation/src/comments.rs:15  pub(crate) const DEFAULT_AUTHOR: &str = "PdfCraft";
+rust  crates/automation/src/mcp.rs:33  'PdfCraft edits PDFs. Open a file with doc_open to get a document id, then inspect \\\n(doc_i' -> 'NERDS PDF edits PDFs. Open a file with doc_open to get a document id, then inspect \\\n(doc_'
+kept  crates/automation/src/mcp.rs:156  "serverInfo": { "name": "pdfcraft", "title": "PdfCraft", "version": env!("CARGO_PKG_VERSION"), "websiteUrl": pdfcraft_engine::links::APP_PAG
+rust  crates/automation/src/mcp.rs:228  'Find PdfCraft tools' -> 'Find NERDS PDF tools'
+rust  crates/automation/src/mcp.rs:229  'Search and list all PdfCraft automation tools, including the core tools, with a one-senten' -> 'Search and list all NERDS PDF automation tools, including the core tools, with a one-sente'
+rust  crates/automation/src/mcp.rs:242  'Find PdfCraft tools' -> 'Find NERDS PDF tools'
+rust  crates/automation/src/mcp.rs:246  'Run any PdfCraft tool' -> 'Run any NERDS PDF tool'
+rust  crates/automation/src/mcp.rs:247  'Run any PdfCraft tool by name with its arguments, exactly as if it were called directly. \\' -> 'Run any NERDS PDF tool by name with its arguments, exactly as if it were called directly. '
+rust  crates/automation/src/mcp.rs:258  'Run any PdfCraft tool' -> 'Run any NERDS PDF tool'
+rust  crates/automation/src/tools.rs:400  'Set several fields at once (one undo step). values maps field names (from form_fields) to:' -> 'Set several fields at once (one undo step). values maps field names (from form_fields) to:'
+rust  crates/automation/src/tools.rs:691  'Follow a local GoToR link in PdfCraft: open the referenced PDF as a new document, respecti' -> 'Follow a local GoToR link in NERDS PDF: open the referenced PDF as a new document, respect'
+rust  crates/automation/src/tools.rs:1045  'Remove every header and footer, watermark or background PdfCraft (or a compatible tool) ad' -> 'Remove every header and footer, watermark or background NERDS PDF (or a compatible tool) a'
+rust  crates/automation/src/tools.rs:1417  'Replace the text of one paragraph (paragraph, from text_paragraphs: rewrapped to the parag' -> 'Replace the text of one paragraph (paragraph, from text_paragraphs: rewrapped to the parag'
+rust  crates/automation/src/tools.rs:1476  'Make an XFA form an ordinary PDF form: the XFA packets (template, data, scripts) and PdfCr' -> 'Make an XFA form an ordinary PDF form: the XFA packets (template, data, scripts) and NERDS'
+rust  crates/automation/src/tools.rs:1482  'Every registered PdfCraft command with its menu, shortcut, whether it is enabled now, and ' -> 'Every registered NERDS PDF command with its menu, shortcut, whether it is enabled now, and'
+kept  crates/create/src/lib.rs:54  info.set(b"Producer".to_vec(), PdfString::text("PdfCraft"));
+rust  crates/edit/src/added/draw.rs:226  'PdfCraft Shaped Text' -> 'NERDS PDF Shaped Text'
+rust  crates/edit/src/added/layout.rs:266  "Arabic text needs PdfCraft's Arabic font, which this build doesn't include \\\n             " -> "Arabic text needs NERDS PDF's Arabic font, which this build doesn't include \\\n            "
+rust  crates/edit/src/added/layout.rs:276  "Hebrew text needs PdfCraft's Hebrew font, which this build doesn't include \\\n             " -> "Hebrew text needs NERDS PDF's Hebrew font, which this build doesn't include \\\n            "
+rust  crates/edit/src/text/fallback.rs:285  "the paragraph's font has no glyph for {ch} (U+{:04X}) and this build has no fallback font " -> "the paragraph's font has no glyph for {ch} (U+{:04X}) and this build has no fallback font "
+rust  crates/edit/src/text/fallback.rs:306  'the {} fallback font has no glyph for {ch} (U+{:04X}), and no fallback face covers the tex' -> 'the {} fallback font has no glyph for {ch} (U+{:04X}), and no fallback face covers the tex'
+rust  crates/edit/src/text/fallback.rs:317  "this text needs PdfCraft's Japanese fallback font, which this build doesn't include \\\n    " -> "this text needs NERDS PDF's Japanese fallback font, which this build doesn't include \\\n   "
+rust  crates/edit/src/text/fallback.rs:331  "this text needs PdfCraft's Hebrew fallback font (Noto Sans Hebrew), which this build doesn" -> "this text needs NERDS PDF's Hebrew fallback font (Noto Sans Hebrew), which this build does"
+rust  crates/engine/src/commands.rs:400  'PdfCraft web page' -> 'NERDS PDF web page'
+rust  crates/engine/src/commands.rs:401  'PdfCraft on GitHub' -> 'NERDS PDF on GitHub'
+rust  crates/engine/src/commands.rs:404  'About PdfCraft' -> 'About NERDS PDF'
+rust  crates/engine/src/document.rs:132  "form field {name:?} (page {page}) holds {ch}, which its font can't draw: the value is save" -> "form field {name:?} (page {page}) holds {ch}, which its font can't draw: the value is save"
+rust  crates/engine/src/links.rs:28  'PdfCraft web page' -> 'NERDS PDF web page'
+rust  crates/engine/src/links.rs:29  'PdfCraft on GitHub' -> 'NERDS PDF on GitHub'
+rust  crates/engine/src/xfa_form.rs:145  "{differ} field(s) held a value other than the form's XFA data (data PdfCraft could not rea" -> "{differ} field(s) held a value other than the form's XFA data (data NERDS PDF could not re"
+rust  crates/ocr/src/lib.rs:33  'the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS ' -> 'the text recognition models are not installed (reinstall NERDS PDF, or set PDFCRAFT_MODELS'
+rust  crates/preflight/src/icc.rs:51  'sRGB (PdfCraft)' -> 'sRGB (NERDS PDF)'
+rust  crates/redact/src/lib.rs:55  'page {0} has vertical-writing text while a redaction mark is pending, and PdfCraft cannot ' -> 'page {0} has vertical-writing text while a redaction mark is pending, and NERDS PDF cannot'
+kept  crates/sign/src/pdf/signing.rs:176  app.set(b"Name".to_vec(), Object::name("PdfCraft"));
+kept  crates/sign/src/pdf/signing.rs:367  app.set(b"Name".to_vec(), Object::name("PdfCraft"));
+rust  crates/sign/src/pdf/types.rs:157  "PdfCraft can't check this signature yet: {}." -> "NERDS PDF can't check this signature yet: {}."
+rust  crates/sign/src/pdf/types.rs:188  "The signer's certificate has critical extensions PdfCraft does not recognize ({})." -> "The signer's certificate has critical extensions NERDS PDF does not recognize ({})."
+rust  crates/sign/src/pdf/types.rs:191  'The certificate of {} has critical extensions PdfCraft does not recognize, so it is not us' -> 'The certificate of {} has critical extensions NERDS PDF does not recognize, so it is not u'
+rust  crates/sign/src/pdf/validate.rs:98  "PdfCraft can't check this signature yet: {}." -> "NERDS PDF can't check this signature yet: {}."
+rust  crates/sign/src/pdf/validate.rs:460  'the /DSS holds more revocation evidence than PdfCraft reads' -> 'the /DSS holds more revocation evidence than NERDS PDF reads'
+rust  crates/sign/src/pdf/validate.rs:640  "PdfCraft can't check this signature yet: {}." -> "NERDS PDF can't check this signature yet: {}."
+rust  crates/sign/src/windows.rs:138  "its {what} key can't sign through PdfCraft yet (RSA, P-256 and P-384 only)" -> "its {what} key can't sign through NERDS PDF yet (RSA, P-256 and P-384 only)"
+rust  crates/sign/src/x509.rs:382  "The signer's certificate has critical extensions PdfCraft does not recognize ({})." -> "The signer's certificate has critical extensions NERDS PDF does not recognize ({})."
+rust  crates/sign/src/x509.rs:544  'The certificate of {} has critical extensions PdfCraft does not recognize, so it is not us' -> 'The certificate of {} has critical extensions NERDS PDF does not recognize, so it is not u'
+rust  crates/ui-egui/src/app.rs:45  'PdfCraft' -> 'NERDS PDF'
+rust  crates/ui-egui/src/app.rs:45  '{name}{mark} — PdfCraft' -> '{name}{mark} — NERDS PDF'
+rust  crates/ui-egui/src/app/links.rs:108  "{who} in this document tried to open an address PdfCraft won't open: {e}." -> "{who} in this document tried to open an address NERDS PDF won't open: {e}."
+rust  crates/ui-egui/src/app/links.rs:110  "{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, " -> "{who} in this document tried to open an address NERDS PDF won't open: {e}. Only web (http,"
+rust  crates/ui-egui/src/canvas/area.rs:114  "{name} submits the form to {url}; PdfCraft doesn't send form data. Save the document to ke" -> "{name} submits the form to {url}; NERDS PDF doesn't send form data. Save the document to k"
+rust  crates/ui-egui/src/canvas/bars.rs:166  "This is a dynamic XFA form, which PdfCraft can't display yet. What you see is the file's p" -> "This is a dynamic XFA form, which NERDS PDF can't display yet. What you see is the file's "
+kept  crates/ui-egui/src/canvas/image_pick.rs:77  if cleaned.is_empty() { "PdfCraft".into() } else { cleaned }
+kept  crates/ui-egui/src/canvas/image_pick.rs:96  env("LOCALAPPDATA").map(|d| d.join("PdfCraft").join("Clipboard"))
+rust  crates/ui-egui/src/dialogs.rs:1429  "PdfCraft didn't shut down normally. These documents had changes that were autosaved:" -> "NERDS PDF didn't shut down normally. These documents had changes that were autosaved:"
+rust  crates/ui-egui/src/dialogs.rs:1529  'PdfCraft' -> 'NERDS PDF'
+rust  crates/ui-egui/src/home.rs:28  'Welcome to PdfCraft' -> 'Welcome to NERDS PDF'
+rust  crates/ui-egui/src/home.rs:155  'Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.' -> 'Files you open in NERDS PDF appear here. Drop a PDF anywhere to open it.'
+rust  crates/ui-egui/src/home.rs:221  'PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a' -> 'NERDS PDF works offline. No telemetry, no account, and no cloud processing unless you add '
+rust  crates/ui-egui/src/menus.rs:24  'PdfCraft' -> 'NERDS PDF'
+kept  crates/ui-egui/src/persist/recovery.rs:178  env("LOCALAPPDATA").map(|d| d.join("PdfCraft").join("Recovery"))
+rust  crates/ui-egui/src/platform/updates.rs:11  'https://github.com/storytold/pdfcraft/releases' -> 'https://github.com/nerds-coach/nerds-pdf/releases'
+rust  crates/ui-egui/src/platform/updates.rs:131  'PdfCraft {c} is up to date.' -> 'NERDS PDF {c} is up to date.'
+rust  crates/ui-egui/src/tools/content_ui.rs:52  "This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value i" -> "This field's font can't draw “{c}” ({code}), so NERDS PDF shows ? in its place. The value "
+rust  crates/ui-egui/src/tools/content_ui.rs:55  "The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF vi" -> "The fonts NERDS PDF writes with can't draw “{c}” ({code}), so it shows as ? in every PDF v"
+rust  crates/ui-egui/src/tools/fill_sign/scan.rs:213  'Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). ' -> 'Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). '
+rust  crates/ui-egui/src/tools/sign_ui/dialog.rs:439  'The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.' -> 'The key is in the Windows certificate store, which may ask to allow NERDS PDF to use it.'
+rust  crates/ui-egui/src/tools/sign_ui/dialog.rs:441  'The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.' -> 'The key is in the macOS Keychain, which may ask to allow NERDS PDF to use it.'
+rust  crates/ui-egui/src/workflows/js_ui.rs:81  "The form asks to be submitted to {u}; PdfCraft doesn't send form data. Save the document t" -> "The form asks to be submitted to {u}; NERDS PDF doesn't send form data. Save the document "
+rust  crates/ui-egui/src/workflows/js_ui.rs:493  'Reopen the files that were open when PdfCraft last closed' -> 'Reopen the files that were open when NERDS PDF last closed'
+rust  crates/ui-egui/src/workflows/ocr_ui.rs:151  "Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set " -> "Text recognition isn't installed: its model files are missing. Reinstall NERDS PDF, or set"
+rust  crates/xfa/src/pdf.rs:611  '{PREFIX} (the first is \\"{}\\" (U+{:04X})); they are shown as ? until PdfCraft can embed fo' -> '{PREFIX} (the first is \\"{}\\" (U+{:04X})); they are shown as ? until NERDS PDF can embed f'
+rust  crates/xfa/src/pdf.rs:722  '{LINK_LEFT_OUT}: PdfCraft makes links only of web (http, https) and email (mailto) address' -> '{LINK_LEFT_OUT}: NERDS PDF makes links only of web (http, https) and email (mailto) addres'
+i18n  crates/ui-egui/src/i18n/ar.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/bg.tsv  (22 lines)
+i18n  crates/ui-egui/src/i18n/ca.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/ckb.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/cs.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/de.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/el.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/es.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/fa.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/fi.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/fr.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/hi.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/hu.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/id.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/it.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/ja.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/kk.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/ko.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/lo.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/lt.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/nb.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/pl.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/pt-br.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/ro.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/ru.tsv  (21 lines)
+i18n  crates/ui-egui/src/i18n/sl.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/sq.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/te.tsv  (19 lines)
+i18n  crates/ui-egui/src/i18n/th.tsv  (26 lines)
+i18n  crates/ui-egui/src/i18n/tr.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/uk.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/vi.tsv  (27 lines)
+i18n  crates/ui-egui/src/i18n/zh-hans.tsv  (22 lines)
+i18n  crates/ui-egui/src/i18n/zh-hant.tsv  (22 lines)
+win   packaging/windows/install-policy.json  (13 lines)
+win   packaging/windows/installer-ui.wxs  (2 lines)
+win   packaging/windows/package.ps1  (1 lines)
+win   packaging/windows/pdfcraft.wxs  (28 lines)
+win   packaging/windows/portable.txt  (4 lines)
+win   packaging/windows/test-msi.ps1  (7 lines)
+mac   packaging/macos/Info.plist.in  (2 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (6 lines)
+brand docs/brand/artcraft-logo-white.svg <- nerds-logo-for-dark-ui.svg
+brand docs/brand/artcraft-logo.svg <- nerds-logo-for-light-ui.svg
+brand docs/brand/artcraft-mark.svg <- nerds-mark.svg
