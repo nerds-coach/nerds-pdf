@@ -1,0 +1,110 @@
+NERDS PDF 0.21.1 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m hayro-jbig2 v0.3.0 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-jbig2)
+[1m[92m   Compiling[0m pdfcraft-crypt v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\crypt)
+[1m[92m   Compiling[0m pdfcraft-fonts v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\fonts)
+[1m[92m   Compiling[0m pdfcraft-geom v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\geom)
+[1m[92m   Compiling[0m pdfcraft-filters v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\filters)
+[1m[92m   Compiling[0m pdfcraft-cos v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\cos)
+[1m[92m   Compiling[0m hayro-syntax v0.7.2 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-syntax)
+[1m[92m   Compiling[0m pdfcraft-model v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\model)
+[1m[92m   Compiling[0m hayro-postscript v0.1.0 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-postscript)
+[1m[92m   Compiling[0m pdfcraft-content v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\content)
+[1m[92m   Compiling[0m pdfcraft-annot v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\annot)
+[1m[92m   Compiling[0m hayro-cmap v0.1.0 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-cmap)
+[1m[92m   Compiling[0m vello_common v0.0.8 (D:\a\nerds-pdf\nerds-pdf\vendor\vello_common)
+[1m[92m   Compiling[0m pdfcraft-edit v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\edit)
+[1m[92m   Compiling[0m vello_cpu v0.0.8 (D:\a\nerds-pdf\nerds-pdf\vendor\vello_cpu)
+[1m[92m   Compiling[0m hayro-interpret v0.7.0 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-interpret)
+[1m[92m   Compiling[0m pdfcraft-xfa v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\xfa)
+[1m[93mwarning[0m[1m[97m: unused import: `std::ops::Deref`[0m
+  [1m[96m--> [0mvendor\hayro-interpret\src\font\mod.rs:27:5
+   [1m[96m|[0m
+[1m[96m27[0m [1m[96m|[0m use std::ops::Deref;
+   [1m[96m|[0m     [1m[93m^^^^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+[1m[92m   Compiling[0m pdfcraft-forms v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\forms)
+[1m[93mwarning[0m: `hayro-interpret` (lib) generated 1 warning
+[1m[92m   Compiling[0m pdfcraft-print v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\print)
+[1m[92m   Compiling[0m lopdf v0.45.0 (D:\a\nerds-pdf\nerds-pdf\vendor\lopdf)
+[1m[92m   Compiling[0m hayro v0.7.1 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro)
+[1m[92m   Compiling[0m pdfcraft-sign v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\sign)
+[1m[92m   Compiling[0m pdfcraft-redact v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\redact)
+[1m[92m   Compiling[0m pdfcraft-optimize v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\optimize)
+[1m[92m   Compiling[0m pdfcraft-ocr v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\ocr)
+[1m[92m   Compiling[0m pdfcraft-render v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\render)
+[1m[92m   Compiling[0m pdfcraft-js v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\js)
+[1m[92m   Compiling[0m pdfcraft-xfdf v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\xfdf)
+[1m[92m   Compiling[0m pdfcraft-create v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\create)
+[1m[92m   Compiling[0m pdfcraft-audit v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\audit)
+[1m[92m   Compiling[0m pdfcraft-measure v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\measure)
+[1m[92m   Compiling[0m pdfcraft-a11y v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\a11y)
+[1m[92m   Compiling[0m pdfcraft-preflight v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\preflight)
+[1m[92m   Compiling[0m pdfcraft-organize v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\organize)
+[1m[92m   Compiling[0m pdfcraft-export v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\export)
+[1m[92m   Compiling[0m pdfcraft-compare v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\compare)
+[1m[92m   Compiling[0m pdfcraft-engine v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\engine)
+[1m[92m   Compiling[0m pdfcraft-platform v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\platform)
+[1m[92m   Compiling[0m pdfcraft-ui-egui v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\ui-egui)
+[1m[92m   Compiling[0m pdfcraft-prc v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\prc)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=6e03f65bf45181db77ba6229716e6624db9eb25b#6e03f65b)
+[1m[92m   Compiling[0m pdfcraft-prc-render v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\prc-render)
+[1m[92m   Compiling[0m pdfcraft v0.21.1 (D:\a\nerds-pdf\nerds-pdf\apps\pdfcraft)
+[1m[92m   Compiling[0m pdfcraft-cli v0.21.1 (D:\a\nerds-pdf\nerds-pdf\apps\pdfcraft-cli)
+[1m[92m   Compiling[0m edit-session v0.1.0-alpha.2 (D:\a\nerds-pdf\nerds-pdf\vendor\edit-session)
+[1m[92m   Compiling[0m pdfcraft-automation v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\automation)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 16m 54s
+ok pdfcraft.exe: x64, PE subsystem 2
+ok pdfcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\pdfcraft.exe, D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\pdfcraft-cli.exe
+==> cargo xtask models
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m hayro-jbig2 v0.3.0 (D:\a\nerds-pdf\nerds-pdf\vendor\hayro-jbig2)
+[1m[92m   Compiling[0m pdfcraft-crypt v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\crypt)
+[1m[92m   Compiling[0m lopdf v0.45.0 (D:\a\nerds-pdf\nerds-pdf\vendor\lopdf)
+[1m[92m   Compiling[0m pdfcraft-oracle v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\oracle)
+[1m[92m   Compiling[0m pdfcraft-filters v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\filters)
+[1m[92m   Compiling[0m pdfcraft-cos v0.21.1 (D:\a\nerds-pdf\nerds-pdf\crates\cos)
+[1m[92m   Compiling[0m xtask v0.1.0 (D:\a\nerds-pdf\nerds-pdf\xtask)
+[1m[92m    Finished[0m `dev` profile [optimized + debuginfo] target(s) in 59.20s
+[1m[92m     Running[0m `target\debug\xtask.exe models 'D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models'`
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.21.1-windows-x64-portable/models/text-detection.onnx
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.21.1-windows-x64-portable/models/text-detection.onnx.LICENCE.txt
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.21.1-windows-x64-portable/models/text-recognition.onnx
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.21.1-windows-x64-portable/models/text-recognition.onnx.LICENCE.txt
+models: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models\text-detection.onnx
+models: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models\text-recognition.onnx
+==> wix build
+==> test-msi
+PASS PdfCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+ok MSI: dual-scope guards, publisher, persistent progress text, Start Menu shortcut, optional desktop shortcut and PDF (Edit, Combine files) and image context menus (on for a first install, kept on update only while present; checkboxes for the first two), install folder (welcome row and browse dialog), icon/key path, full-UI success/cancel/error and Finish controls, files-in-use dialog, OCR models
+PASS PdfCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-pdf\nerds-pdf\dist\release\pdfcraft-0.21.1-windows-x64.msi
+==> pdfcraft-cli --version
+pdfcraft-cli 0.21.1
+Discord: https://discord.gg/artcraft  (help and feedback)
+Web:     https://getartcraft.com/apps/pdfcraft
+Source:  https://github.com/storytold/pdfcraft
+
+[32;1mName                                    [0m[32;1m    Length[0m
+[32;1m----                                    [0m [32;1m   ------[0m
+pdfcraft-0.21.1-windows-x64.msi           99713024
+pdfcraft-0.21.1-windows-x64-portable.zip 122909686
+
