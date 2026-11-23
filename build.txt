@@ -1,0 +1,389 @@
+NERDS PDF 0.22.0 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `craft-drawingml`[0m
+  [1m[96m--> [0mCargo.toml:52:1
+   [1m[96m|[0m
+[1m[96m52[0m [1m[96m|[0m craft-drawingml = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "010702ee9b030844c852939095b1da0d0656a[1m[96m...[0m
+   [1m[96m|[0m [1m[93m^^^^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: `cargo::unused_workspace_dependencies` is set to `warn` by default
+[1m[96mhelp[0m: consider removing the workspace dependency `craft-drawingml`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `craft-opc`[0m
+  [1m[96m--> [0mCargo.toml:53:1
+   [1m[96m|[0m
+[1m[96m53[0m [1m[96m|[0m craft-opc = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "e2dc681a3" }
+   [1m[96m|[0m [1m[93m^^^^^^^^^[0m
+   [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `craft-opc`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `fax`[0m
+   [1m[96m--> [0mCargo.toml:106:1
+    [1m[96m|[0m
+[1m[96m106[0m [1m[96m|[0m fax = "0.2.7"
+    [1m[96m|[0m [1m[93m^^^[0m
+    [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `fax`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `hayro-jbig2`[0m
+   [1m[96m--> [0mCargo.toml:109:1
+    [1m[96m|[0m
+[1m[96m109[0m [1m[96m|[0m hayro-jbig2 = "0.3"
+    [1m[96m|[0m [1m[93m^^^^^^^^^^^[0m
+    [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `hayro-jbig2`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `pdfcraft-prc`[0m
+  [1m[96m--> [0mCargo.toml:91:1
+   [1m[96m|[0m
+[1m[96m91[0m [1m[96m|[0m pdfcraft-prc = { package = "craft-prc", git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "e2dc681a3" }
+   [1m[96m|[0m [1m[93m^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `pdfcraft-prc`
+[1m[93mwarning[0m: workspace (manifest) generated 5 warnings
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[92m    Updating[0m git repository `https://github.com/storytold/winprint.rs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m alloc-stdlib v0.3.0
+[1m[92m  Downloaded[0m alloc-no-stdlib v3.0.0
+[1m[92m  Downloaded[0m bit_field v0.10.4
+[1m[92m  Downloaded[0m brotli-decompressor v6.3.2
+[1m[92m  Downloaded[0m chardetng v1.0.0
+[1m[92m  Downloaded[0m crypto-bigint v0.7.11
+[1m[92m  Downloaded[0m ctutils v0.4.8
+[1m[92m  Downloaded[0m exr v1.74.3
+[1m[92m  Downloaded[0m image-webp v0.2.4
+[1m[92m  Downloaded[0m jpeg-encoder v0.6.1
+[1m[92m  Downloaded[0m lebe v0.5.3
+[1m[92m  Downloaded[0m md-5 v0.10.6
+[1m[92m  Downloaded[0m multiversion v0.8.1
+[1m[92m  Downloaded[0m multiversion-macros v0.8.1
+[1m[92m  Downloaded[0m qoi v0.4.1
+[1m[92m  Downloaded[0m target-features v0.1.6
+[1m[92m  Downloaded[0m zune-inflate v0.2.54
+[1m[92m  Downloaded[0m zune-jpegxl v0.5.2
+[1m[92m   Compiling[0m ctutils v0.4.8
+[1m[92m   Compiling[0m kurbo v0.13.1
+[1m[92m   Compiling[0m image-webp v0.2.4
+[1m[92m   Compiling[0m qoi v0.4.1
+[1m[92m   Compiling[0m digest v0.11.3
+[1m[92m   Compiling[0m peniko v0.6.1
+[1m[92m   Compiling[0m image v0.25.10
+[1m[92m   Compiling[0m sha2 v0.11.1
+[1m[92m   Compiling[0m quick-xml v0.41.0
+[1m[92m   Compiling[0m hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m hayro-postscript v0.1.0 (https://github.com/storytold/craft-libs?rev=e7873217287876f76a045550369c90a541693c33#e7873217)
+[1m[92m   Compiling[0m hayro-cmap v0.1.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m hayro-syntax v0.7.2 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m aws-lc-sys v0.46.0
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m vello_common v0.0.8 (D:\a\nerds-pdf\nerds-pdf\vendor\vello_common)
+[1m[92m   Compiling[0m vello_cpu v0.0.8 (D:\a\nerds-pdf\nerds-pdf\vendor\vello_cpu)
+[1m[92m   Compiling[0m hayro-interpret v0.7.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m md-5 v0.11.0
+[1m[92m   Compiling[0m hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m craft-stream-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m serde_json v1.0.154
+[1m[92m   Compiling[0m craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m mio v1.2.4
+[1m[92m   Compiling[0m socket2 v0.6.5
+[1m[92m   Compiling[0m tokio v1.53.1
+[1m[92m   Compiling[0m pdfcraft-cos v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\cos)
+[1m[92m   Compiling[0m pdfcraft-fonts v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\fonts)
+[1m[92m   Compiling[0m tokio-util v0.7.20
+[1m[92m   Compiling[0m crypto-bigint v0.7.11
+[1m[92m   Compiling[0m h2 v0.4.20
+[1m[92m   Compiling[0m hyper v1.12.0
+[1m[92m   Compiling[0m tower v0.5.3
+[1m[92m   Compiling[0m hyper-util v0.1.21
+[1m[92m   Compiling[0m tower-http v0.6.11
+[1m[92m   Compiling[0m pdfcraft-model v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\model)
+[1m[92m   Compiling[0m hmac v0.13.0
+[1m[92m   Compiling[0m target-features v0.1.6
+[1m[92m   Compiling[0m pdfcraft-content v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\content)
+[1m[92m   Compiling[0m signature v3.0.0
+[1m[92m   Compiling[0m sec1 v0.8.1
+[1m[92m   Compiling[0m vello_common v0.2.0
+[1m[92m   Compiling[0m zip v9.1.3
+[1m[92m   Compiling[0m vello_cpu v0.2.0
+[1m[92m   Compiling[0m elliptic-curve v0.14.1
+[1m[92m   Compiling[0m primefield v0.14.0
+[1m[92m   Compiling[0m craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m pdfcraft-geom v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\geom)
+[1m[92m   Compiling[0m alloc-no-stdlib v3.0.0
+[1m[92m   Compiling[0m epaint v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m alloc-stdlib v0.3.0
+[1m[92m   Compiling[0m wnaf v0.14.1
+[1m[92m   Compiling[0m multiversion-macros v0.8.1
+[1m[92m   Compiling[0m rfc6979 v0.6.0
+[1m[92m   Compiling[0m egui v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m ecdsa v0.17.0
+[1m[92m   Compiling[0m multiversion v0.8.1
+[1m[92m   Compiling[0m primeorder v0.14.0
+[1m[92m   Compiling[0m brotli-decompressor v6.3.2
+[1m[92m   Compiling[0m pdfcraft-annot v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\annot)
+[1m[92m   Compiling[0m craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=1546550b0d4b79b8156a1fefaac8b3b317a4aee0#1546550b)
+[1m[92m   Compiling[0m zune-inflate v0.2.54
+[1m[92m   Compiling[0m craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m lebe v0.5.3
+[1m[92m   Compiling[0m bit_field v0.10.4
+[1m[92m   Compiling[0m exr v1.74.3
+[1m[92m   Compiling[0m craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m craft-dds v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m zune-jpegxl v0.5.2
+[1m[92m   Compiling[0m craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m jpeg-encoder v0.6.1
+[1m[92m   Compiling[0m craft-image-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m craft-math v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m windows-sys v0.52.0
+[1m[92m   Compiling[0m craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m sha1 v0.11.0
+[1m[92m   Compiling[0m craft-math v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m craft-wordmodel v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m aws-lc-rs v1.18.2
+[1m[92m   Compiling[0m rustls-webpki v0.103.16
+[1m[92m   Compiling[0m rustls v0.23.46
+[1m[92m   Compiling[0m tokio-rustls v0.26.6
+[1m[92m   Compiling[0m sigstore-crypto v0.6.6
+[1m[92m   Compiling[0m hyper-rustls v0.27.10
+[1m[92m   Compiling[0m rustls-platform-verifier v0.7.1
+[1m[92m   Compiling[0m reqwest v0.13.5
+[1m[92m   Compiling[0m sigstore-merkle v0.6.6
+[1m[92m   Compiling[0m sigstore-rekor v0.6.6
+[1m[92m   Compiling[0m sigstore-tsa v0.6.6
+[1m[92m   Compiling[0m sigstore-bundle v0.6.6
+[1m[92m   Compiling[0m sigstore-trust-root v0.6.6
+[1m[92m   Compiling[0m sigstore-verify v0.6.6
+[1m[92m   Compiling[0m winprint v0.2.1 (https://github.com/storytold/winprint.rs?rev=72951d7455ebcab569fbd9386c513d3d9f53fb02#72951d74)
+[1m[92m   Compiling[0m md-5 v0.10.6
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee)
+[1m[92m   Compiling[0m craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=23acc704933a9a5619a5cd1cddc9bb1fb5a9b2d3#23acc704)
+[1m[92m   Compiling[0m curve25519-dalek v5.0.0
+[1m[92m   Compiling[0m craft-xfa v0.1.0 (https://github.com/storytold/craft-libs?rev=23acc704933a9a5619a5cd1cddc9bb1fb5a9b2d3#23acc704)
+[1m[92m   Compiling[0m winprint v0.2.1 (https://github.com/storytold/winprint.rs?rev=5f80b9baf6b58937c401656634e42d33f00ddf49#5f80b9ba)
+[1m[92m   Compiling[0m craft-wordmodel v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee)
+[1m[92m   Compiling[0m craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m chardetng v1.0.0
+[1m[92m   Compiling[0m ed25519 v3.0.0
+[1m[92m   Compiling[0m crypto-primes v0.7.2
+[1m[92m   Compiling[0m pdfcraft-filters v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\filters)
+[1m[92m   Compiling[0m craft-codepage v0.1.0 (https://github.com/storytold/craft-libs?rev=1546550b0d4b79b8156a1fefaac8b3b317a4aee0#1546550b)
+[1m[92m   Compiling[0m craft-codepage v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-cfb v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m sha3 v0.12.0
+[1m[92m   Compiling[0m winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+[1m[92m   Compiling[0m craft-offcrypto v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-mime v0.1.0 (https://github.com/storytold/craft-libs?rev=1546550b0d4b79b8156a1fefaac8b3b317a4aee0#1546550b)
+[1m[92m   Compiling[0m rsa v0.10.0-rc.18
+[1m[92m   Compiling[0m ed25519-dalek v3.0.0
+[1m[92m   Compiling[0m craft-flow v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m craft-opc v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-opc v0.1.0 (https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee)
+[1m[92m   Compiling[0m pdfcraft-edit v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\edit)
+[1m[92m   Compiling[0m pdfcraft-xfa v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\xfa)
+[1m[92m   Compiling[0m craft-drawingml v0.1.0 (https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee)
+[1m[92m   Compiling[0m craft-flow v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m p521 v0.14.0
+[1m[92m   Compiling[0m bp384 v0.14.0
+[1m[92m   Compiling[0m bp256 v0.14.0
+[1m[92m   Compiling[0m p384 v0.14.0
+[1m[92m   Compiling[0m p256 v0.14.0
+[1m[92m   Compiling[0m craft-drawingml v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-metafile v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m pdfcraft-forms v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\forms)
+[1m[92m   Compiling[0m pbkdf2 v0.13.0
+[1m[92m   Compiling[0m craft-winprint-gdi v0.1.0 (https://github.com/storytold/winprint.rs?rev=64e7afd4d1483512385012c340ecaaaf0f3beb7f#64e7afd4)
+[1m[92m   Compiling[0m ripemd v0.2.0
+[1m[92m   Compiling[0m craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-html v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m pdfcraft-print v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\print)
+[1m[92m   Compiling[0m lopdf v0.45.0 (D:\a\nerds-pdf\nerds-pdf\vendor\lopdf)
+[1m[92m   Compiling[0m boa_engine v0.22.0
+[1m[92m   Compiling[0m craft-markdown v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb3f47f7ae712192586984af11ca8f6c0f64d33#fbb3f47f)
+[1m[92m   Compiling[0m craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-pkcs7 v0.1.0 (https://github.com/storytold/craft-libs?rev=bc4aae37bb219049596327fca971046dab0b78be#bc4aae37)
+[1m[92m   Compiling[0m craft-docx v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-rtf v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-pptx v0.1.0 (https://github.com/storytold/craft-libs?rev=010702ee9b030844c852939095b1da0d0656a890#010702ee)
+[1m[92m   Compiling[0m craft-html v0.1.0 (https://github.com/storytold/craft-libs?rev=1546550b0d4b79b8156a1fefaac8b3b317a4aee0#1546550b)
+[1m[92m   Compiling[0m craft-mime v0.1.0 (https://github.com/storytold/craft-libs?rev=b8eaa8e2f3561f9fa27fcf3b7f67ce915e93caa3#b8eaa8e2)
+[1m[92m   Compiling[0m craft-cms v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-cms v0.1.0 (https://github.com/storytold/craft-libs?rev=8503f24cb845268f47f97e829491114fe9ad1bfa#8503f24c)
+[1m[92m   Compiling[0m rustls-cng v0.7.1
+[1m[92m   Compiling[0m craft-xfdf v0.1.0 (https://github.com/storytold/craft-libs?rev=1546550b0d4b79b8156a1fefaac8b3b317a4aee0#1546550b)
+[1m[92m   Compiling[0m craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-csv v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m pdfcraft-create v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\create)
+[1m[92m   Compiling[0m pdfcraft-xfdf v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\xfdf)
+[1m[92m   Compiling[0m pdfcraft-redact v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\redact)
+[1m[92m   Compiling[0m pdfcraft-export v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\export)
+[1m[92m   Compiling[0m pdfcraft-optimize v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\optimize)
+[1m[92m   Compiling[0m pdfcraft-sign v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\sign)
+[1m[92m   Compiling[0m pdfcraft-preflight v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\preflight)
+[1m[92m   Compiling[0m pdfcraft-ocr v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\ocr)
+[1m[92m   Compiling[0m glutin_egl_sys v0.7.1
+[1m[92m   Compiling[0m pdfcraft-render v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\render)
+[1m[92m   Compiling[0m pdfcraft-audit v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\audit)
+[1m[92m   Compiling[0m pdfcraft-measure v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\measure)
+[1m[92m   Compiling[0m pdfcraft-a11y v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\a11y)
+[1m[92m   Compiling[0m pdfcraft-organize v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\organize)
+[1m[92m   Compiling[0m pdfcraft-compare v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\compare)
+[1m[92m   Compiling[0m craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m glutin v0.32.3
+[1m[92m   Compiling[0m accesskit_winit v0.34.1
+[1m[92m   Compiling[0m arboard v3.7.0
+[1m[92m   Compiling[0m pdfcraft-platform v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\platform)
+[1m[92m   Compiling[0m ureq v3.5.0
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m glutin-winit v0.5.0
+[1m[92m   Compiling[0m egui_glow v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m pdfcraft-ui-egui v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\ui-egui)
+[1m[92m   Compiling[0m craft-keymap v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-quit v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m verifysign v1.0.1
+[1m[92m   Compiling[0m craft-prc v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m pdfcraft-js v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\js)
+[1m[92m   Compiling[0m pdfcraft-engine v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\engine)
+[1m[92m   Compiling[0m craft-menu v0.1.0 (https://github.com/storytold/craft-libs?rev=e2dc681a3#e2dc681a)
+[1m[92m   Compiling[0m pdfcraft-prc-render v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\prc-render)
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)
+[1m[92m   Compiling[0m rfd v0.17.2
+[1m[92m   Compiling[0m pdfcraft v0.22.0 (D:\a\nerds-pdf\nerds-pdf\apps\pdfcraft)
+[1m[92m   Compiling[0m pdfcraft-cli v0.22.0 (D:\a\nerds-pdf\nerds-pdf\apps\pdfcraft-cli)
+[1m[92m   Compiling[0m craft-jsonrpc v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb2d4b299d87191a79444c6e4e02d69d9325059#fbb2d4b2)
+[1m[92m   Compiling[0m craft-mcp-server v0.1.0 (https://github.com/storytold/craft-libs?rev=fbb2d4b299d87191a79444c6e4e02d69d9325059#fbb2d4b2)
+[1m[92m   Compiling[0m edit-session v0.1.0-alpha.2 (D:\a\nerds-pdf\nerds-pdf\vendor\edit-session)
+[1m[92m   Compiling[0m pdfcraft-automation v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\automation)
+[1m[92m   Compiling[0m uds_windows v1.2.1
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 20m 21s
+ok pdfcraft.exe: x64, PE subsystem 2
+ok pdfcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\pdfcraft.exe, D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\pdfcraft-cli.exe
+==> cargo xtask models
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `craft-drawingml`[0m
+  [1m[96m--> [0mCargo.toml:52:1
+   [1m[96m|[0m
+[1m[96m52[0m [1m[96m|[0m craft-drawingml = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "010702ee9b030844c852939095b1da0d0656a[1m[96m...[0m
+   [1m[96m|[0m [1m[93m^^^^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: `cargo::unused_workspace_dependencies` is set to `warn` by default
+[1m[96mhelp[0m: consider removing the workspace dependency `craft-drawingml`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `craft-opc`[0m
+  [1m[96m--> [0mCargo.toml:53:1
+   [1m[96m|[0m
+[1m[96m53[0m [1m[96m|[0m craft-opc = { git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "e2dc681a3" }
+   [1m[96m|[0m [1m[93m^^^^^^^^^[0m
+   [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `craft-opc`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `fax`[0m
+   [1m[96m--> [0mCargo.toml:106:1
+    [1m[96m|[0m
+[1m[96m106[0m [1m[96m|[0m fax = "0.2.7"
+    [1m[96m|[0m [1m[93m^^^[0m
+    [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `fax`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `hayro-jbig2`[0m
+   [1m[96m--> [0mCargo.toml:109:1
+    [1m[96m|[0m
+[1m[96m109[0m [1m[96m|[0m hayro-jbig2 = "0.3"
+    [1m[96m|[0m [1m[93m^^^^^^^^^^^[0m
+    [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `hayro-jbig2`
+[1m[93mwarning[0m[1m[97m: unused workspace dependency `pdfcraft-prc`[0m
+  [1m[96m--> [0mCargo.toml:91:1
+   [1m[96m|[0m
+[1m[96m91[0m [1m[96m|[0m pdfcraft-prc = { package = "craft-prc", git = "https://github.com/storytold/craft-libs", version = "0.1.0", rev = "e2dc681a3" }
+   [1m[96m|[0m [1m[93m^^^^^^^^^^^^[0m
+   [1m[96m|[0m
+[1m[96mhelp[0m: consider removing the workspace dependency `pdfcraft-prc`
+[1m[93mwarning[0m: workspace (manifest) generated 5 warnings
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=725a39fca940f77149ffbb9c58eef405a16997bc#725a39fc)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m syn v2.0.119
+[1m[92m   Compiling[0m zerocopy v0.8.59
+[1m[92m   Compiling[0m memchr v2.8.3
+[1m[92m   Compiling[0m target-features v0.1.6
+[1m[92m   Compiling[0m zune-core v0.5.3
+[1m[92m   Compiling[0m alloc-no-stdlib v3.0.0
+[1m[92m   Compiling[0m weezl v0.1.12
+[1m[92m   Compiling[0m quick-error v2.0.1
+[1m[92m   Compiling[0m alloc-stdlib v0.3.0
+[1m[92m   Compiling[0m hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m zune-jpeg v0.5.15
+[1m[92m   Compiling[0m color_quant v1.1.0
+[1m[92m   Compiling[0m qoi v0.4.1
+[1m[92m   Compiling[0m gif v0.14.2
+[1m[92m   Compiling[0m craft-stream-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m brotli-decompressor v6.3.2
+[1m[92m   Compiling[0m quick-xml v0.41.0
+[1m[92m   Compiling[0m zune-inflate v0.2.54
+[1m[92m   Compiling[0m lebe v0.5.3
+[1m[92m   Compiling[0m smallvec v1.16.2
+[1m[92m   Compiling[0m bit_field v0.10.4
+[1m[92m   Compiling[0m craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=9eb02be84f21898e247daeb2af5827c9fe85a3a0#9eb02be8)
+[1m[92m   Compiling[0m hayro-jpeg2000 v0.3.5
+[1m[92m   Compiling[0m craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m serde_json v1.0.154
+[1m[92m   Compiling[0m image-webp v0.2.4
+[1m[92m   Compiling[0m craft-dds v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m zune-jpegxl v0.5.2
+[1m[92m   Compiling[0m nom v8.0.0
+[1m[92m   Compiling[0m zerocopy-derive v0.8.59
+[1m[92m   Compiling[0m multiversion-macros v0.8.1
+[1m[92m   Compiling[0m craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m jpeg-encoder v0.6.1
+[1m[92m   Compiling[0m lopdf v0.45.0 (D:\a\nerds-pdf\nerds-pdf\vendor\lopdf)
+[1m[92m   Compiling[0m pdfcraft-cos v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\cos)
+[1m[92m   Compiling[0m pdfcraft-oracle v0.22.0 (D:\a\nerds-pdf\nerds-pdf\crates\oracle)
+[1m[92m   Compiling[0m multiversion v0.8.1
+[1m[92m   Compiling[0m half v2.7.1
+[1m[92m   Compiling[0m tiff v0.11.3
+[1m[92m   Compiling[0m image v0.25.10
+[1m[92m   Compiling[0m exr v1.74.3
+[1m[92m   Compiling[0m craft-image-codecs v0.1.0 (https://github.com/storytold/craft-libs?rev=a7c6c9d61c6b36f4aec55b044f257340083fd571#a7c6c9d6)
+[1m[92m   Compiling[0m xtask v0.1.0 (D:\a\nerds-pdf\nerds-pdf\xtask)
+[1m[92m    Finished[0m `dev` profile [optimized + debuginfo] target(s) in 2m 39s
+[1m[92m     Running[0m `target\debug\xtask.exe models 'D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models'`
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.22.0-windows-x64-portable/models/text-detection.onnx
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.22.0-windows-x64-portable/models/text-detection.onnx.LICENCE.txt
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.22.0-windows-x64-portable/models/text-recognition.onnx
+assets: fetching file:///D:/a/_temp/official/x/pdfcraft-0.22.0-windows-x64-portable/models/text-recognition.onnx.LICENCE.txt
+models: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models\text-detection.onnx
+models: D:\a\nerds-pdf\nerds-pdf\target\windows-package\x64\models\text-recognition.onnx
+==> wix build
+==> test-msi
+PASS PdfCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+ok MSI: dual-scope guards, publisher, persistent progress text, Start Menu shortcut, optional desktop shortcut and PDF (Edit, Combine files) and image context menus (on for a first install, kept on update only while present; checkboxes for the first two), install folder (welcome row and browse dialog), icon/key path, full-UI success/cancel/error and Finish controls, files-in-use dialog, OCR models
+PASS PdfCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-pdf\nerds-pdf\dist\release\pdfcraft-0.22.0-windows-x64.msi
+==> pdfcraft-cli --version
+pdfcraft-cli 0.22.0
+Discord: https://discord.gg/artcraft  (help and feedback)
+Web:     https://getartcraft.com/apps/pdfcraft
+Source:  https://github.com/storytold/pdfcraft
+
+[32;1mName                                    [0m[32;1m    Length[0m
+[32;1m----                                    [0m [32;1m   ------[0m
+pdfcraft-0.22.0-windows-x64.msi          107622400
+pdfcraft-0.22.0-windows-x64-portable.zip 133413199
+
