@@ -1,0 +1,9 @@
+total 476316
+-rw-r--r-- 1 runner runner       413 Nov 23 08:14 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 144735980 Nov 23 08:14 pdfcraft-0.22.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 133413199 Nov 23 08:14 pdfcraft-0.22.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 107622400 Nov 23 08:14 pdfcraft-0.22.0-windows-x64.msi
+-rw-r--r-- 1 runner runner 101966908 Nov 23 08:14 pdfcraft-cli-0.22.0-macos-universal.zip
+18986 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-pdf/releases/tag/untagged-c04014e29a33c5b22e39
+https://github.com/nerds-coach/nerds-pdf/releases/tag/v0.22.0
